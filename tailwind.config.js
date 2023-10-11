@@ -4,8 +4,8 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  theme: {
     fontFamily : {
-      global : ['Inter', 'sans-serif'],
-      bolds : ['Roboto Slab', 'sans-serif'],
+      global  : ['Inter', 'sans-serif'],
+      bolds   : ['Roboto Slab', 'sans-serif'],
       details : ['IBM Plex Serif', 'sans-serif'],
     },
     fontSize : {
@@ -15,7 +15,7 @@ module.exports = {
         fontWeight : '800',
        }
       ],
-    'section' : ['24px', {
+    'section' : ['30px', {
         lineHeight : '32px',
         letterSpacing : '0px',
         fontWeight : '600',
@@ -33,6 +33,12 @@ module.exports = {
         fontWeight : '400',
       }
     ],
+    'small' : ['16px', {
+      lineHeight : '28px',
+      letterSpacing : '0px',
+      fontWeight : '400',
+    }
+  ],
   },
     screens: {
       'mobile' : '375px',

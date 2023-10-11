@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply leading-snug tracking-wide
+  }
+
+  .main {
+    @apply text-left
+  }
+
+  .word-heading {
+    @apply text-heading font-semibold font-bolds tracking-wider
+  }
+
+  .phonetic, .synonyms {
+    @apply font-semibold text-blue-500
+  }
+
+  .type {
+    @apply text-button font-bolds font-bold pt-4 pb-2
+  }
+
+  .meanings {
+    @apply font-medium text-[18px] text-slate-400
+  }
+
+  .details {
+    @apply flex flex-col gap-2 font-details
+  }
+
+  .error {
+    @apply space-y-4
+  }
+}

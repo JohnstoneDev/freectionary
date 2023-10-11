@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon-bar, .icon-bar-section {
+    @apply text-section flex flex-row items-center justify-between gap-4
+  }
+
+  .input {
+    @apply w-full rounded-xl font-bolds font-bold outline-none focus:outline-none border-none focus:border-none
+  }
+
+  .search-bar > form {
+    @apply flex items-center justify-around rounded-xl gap-4 p-1.5 bg-neutral-100 dark:bg-zinc-700
+  }
+
+  .search-bar > form > button {
+    @apply text-section text-blue-600 font-extrabold
+  }
+}
