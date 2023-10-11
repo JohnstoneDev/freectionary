@@ -5,13 +5,15 @@ module.exports = {
   ],  theme: {
     fontFamily : {
       global : ['Inter', 'sans-serif'],
+      bolds : ['Roboto Slab', 'sans-serif'],
+      details : ['IBM Plex Serif', 'sans-serif'],
     },
     fontSize : {
       'heading' : ['36px', {
-          lineHeight : '40px',
-          letterSpacing : '0px',
-          fontWeight : '800',
-        }
+        lineHeight : '40px',
+        letterSpacing : '0px',
+        fontWeight : '800',
+       }
       ],
     'section' : ['24px', {
         lineHeight : '32px',
